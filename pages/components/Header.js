@@ -1,4 +1,4 @@
-import styles from "../styles/Home.module.css"
+import styles from "./Header.module.css"
 
 export default function Header() {
 	return (
@@ -30,7 +30,7 @@ export default function Header() {
 				<p>We offer music in 100x better quality than our competitors. Say good bye to FLAC 👋</p>
 				<div className={styles.action}>
 					<button className={styles.get_started_btn}>Get Started</button>
-					<p>
+					<p className={styles.see_it_in_action}>
 						<img src="images/youtube-icon.svg" alt="youtube icon" /> See it in Action!
 					</p>
 				</div>

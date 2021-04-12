@@ -1,0 +1,54 @@
+.main_container {
+	font-family: var(--secondary-font);
+	width: 100vw;
+	background: #27272e;
+	color: #fff;
+	padding: 150px 180px 100px 180px;
+	overflow: hidden;
+	background-image: url("/images/background-vectors-2.svg");
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.main {
+	display: flex;
+}
+
+.main_left {
+	width: 300px;
+}
+
+.main_left h4 {
+	line-height: 36px;
+	letter-spacing: -0.025em;
+	font-weight: 500;
+	font-size: 20px;
+	width: 270px;
+}
+
+.main_right h1 {
+	font-size: 80px;
+	font-weight: 500;
+	line-height: 80px;
+	letter-spacing: -0.025em;
+	width: 800px;
+	z-index: 1;
+}
+
+.main_right_lead {
+	font-family: var(--primary-font);
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	opacity: 0.5;
+	margin: 40px 0;
+	width: 500px;
+}
+
+.band_logos {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 90px;
+}

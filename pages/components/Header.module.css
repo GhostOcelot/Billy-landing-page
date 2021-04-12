@@ -1,0 +1,195 @@
+.header {
+	margin-top: 50px;
+	width: 100%;
+	z-index: 1;
+}
+
+.get_started_btn {
+	width: 180px;
+	height: 72px;
+	background: #ffffff;
+	border-radius: 20px;
+	border: none;
+	font-family: var(--primary-font);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: -0.04em;
+	color: #5956e9;
+	margin-right: 30px;
+	border: 2px solid #5956e9;
+	z-index: 1;
+}
+
+.get_started_btn:hover {
+	background: #e6e6ff;
+	cursor: pointer;
+}
+
+.nav {
+	margin: 0 70px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.top_menu {
+	display: flex;
+	align-items: center;
+	font-family: var(--primary-font);
+}
+
+.top_menu_item {
+	margin: 0 29px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: -0.04em;
+	color: #999fae;
+	list-style: none;
+	border-bottom: 2px solid #fff;
+}
+
+.top_menu_item:hover {
+	border-bottom: 2px solid #999fae;
+	cursor: pointer;
+}
+
+.muse_logo {
+	margin: 0 29px;
+	display: flex;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 27px;
+	letter-spacing: -0.03em;
+	color: #292930;
+	list-style: none;
+	border-bottom: 2px solid #fff;
+	cursor: pointer;
+}
+
+.muse_logo img {
+	margin-right: 12px;
+}
+
+.top_menu_arrow {
+	margin-left: 10px;
+}
+
+.circle_big {
+	position: absolute;
+	width: 1220px;
+	height: 1220px;
+	left: 831px;
+	top: -98px;
+	border-radius: 50%;
+	background: #5956e9;
+}
+
+.circle_pink {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 70px;
+	top: 451px;
+	border-radius: 50%;
+	background: #fab8c4;
+	mix-blend-mode: normal;
+}
+
+.circle_yellow {
+	position: absolute;
+	width: 128px;
+	height: 128px;
+	left: 664px;
+	top: 229px;
+	border-radius: 50%;
+	background: #ffdc60;
+	mix-blend-mode: normal;
+}
+
+.headphones_container {
+	position: absolute;
+	width: 1066px;
+	height: 852px;
+	left: 469px;
+	top: 116px;
+}
+
+.header_main {
+	margin: 100px 0 0 180px;
+	width: 400px;
+}
+
+.header_main h1 {
+	font-family: var(--secondary-font);
+	font-style: normal;
+	font-weight: bold;
+	font-size: 96px;
+	line-height: 95px;
+	letter-spacing: -0.025em;
+	color: #292930;
+}
+
+.header_main p {
+	font-family: var(--primary-font);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+	color: #999fae;
+	margin-top: 20px;
+}
+
+.full_stop_blue {
+	color: #5956e9;
+}
+
+.header_main .get_started_btn {
+	background: #5956e9;
+	color: #fff;
+	border: none;
+}
+
+.header_main .get_started_btn:hover {
+	background: #8886ff;
+}
+
+.see_it_in_action {
+	cursor: pointer;
+}
+
+.header_main .action {
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.header_main .action p {
+	font-size: 16px;
+	margin: 0;
+}
+
+.header_main .action img {
+	margin-right: 10px;
+}
+
+.scroll_section {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: fit-content;
+	cursor: pointer;
+}
+
+.scroll_section p {
+	font-size: 16px;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+
+.scroll_section img {
+	margin-right: 10px;
+}

@@ -1,0 +1,94 @@
+.main_container {
+	font-family: var(--secondary-font);
+	width: 100vw;
+	background: #27272e;
+	color: #fff;
+	padding: 150px 15% 100px 180px;
+	overflow: hidden;
+	background-image: url("/images/background-vectors.svg");
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.main {
+	display: flex;
+}
+
+.shadow_cover {
+	width: 469px;
+	height: 585px;
+	background: linear-gradient(90deg, #27272e 78.53%, rgba(39, 39, 46, 0) 100%);
+	position: absolute;
+	left: 1px;
+	top: 427px;
+	z-index: 1;
+}
+
+.main_left {
+	width: 300px;
+	z-index: 1;
+}
+
+.main_left h4 {
+	line-height: 36px;
+	letter-spacing: -0.025em;
+	font-weight: 500;
+	font-size: 20px;
+	margin-bottom: 500px;
+	width: 270px;
+}
+
+.main_left p {
+	margin-bottom: 180px;
+}
+
+.horizontal_divider {
+	height: 1px;
+	width: 40px;
+	display: inline-block;
+	background: #fff;
+	margin: 0 40px;
+	position: relative;
+	top: -4px;
+}
+
+.main_left button {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	background: #27272e;
+	cursor: pointer;
+}
+
+.main_left button:hover {
+	background: #5956e9;
+	border: none;
+}
+
+.main_left button:first-of-type {
+	margin-right: 20px;
+}
+
+.main_left button img {
+	position: relative;
+	top: 1px;
+}
+
+.main_right h1 {
+	font-size: 80px;
+	font-weight: 500;
+	line-height: 80px;
+	letter-spacing: -0.025em;
+	width: 700px;
+}
+
+.main_right_lead {
+	font-family: var(--primary-font);
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	opacity: 0.5;
+	margin: 40px 0;
+	width: 500px;
+}
