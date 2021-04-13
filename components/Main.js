@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react"
-import { Context } from ".."
+import { Context } from "../pages/index"
 import Slider from "./Slider"
 import styles from "./Main.module.css"
 

@@ -1,11 +1,11 @@
 import React, { useState } from "react"
 import Head from "next/head"
 import styles from "../styles/Home.module.css"
-import Header from "./components/Header"
-import Main from "./components/Main"
-import Cards from "./components/Cards"
-import BottomAd from "./components/BottomAd"
-import Footer from "./components/Footer"
+import Header from "../components/Header"
+import Main from "../components/Main"
+import Cards from "../components/Cards"
+import BottomAd from "../components/BottomAd"
+import Footer from "../components/Footer"
 
 export const Context = React.createContext()
 

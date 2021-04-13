@@ -1,5 +1,5 @@
 import React, { useContext } from "react"
-import { Context } from "../index"
+import { Context } from "../pages/index"
 import styles from "./Slider.module.css"
 
 export default function Header() {
